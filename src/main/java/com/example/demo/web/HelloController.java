@@ -13,7 +13,7 @@ public class HelloController {
     private UserMapper userMapper;
     @RequestMapping("/u")
     String home() {
-        return "Hello World!";
+        return "Hello World2!";
     }
     @RequestMapping("/")
 	public List<UserEntity> getUsers() {
